@@ -1,0 +1,52 @@
+/* Body styling for context */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f3e5f5, #e1bee7); /* Light violet gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for form */
+form#payment-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Button styling */
+.buy-button {
+    background: linear-gradient(145deg, #ff8a80, #ff5252); /* Gradient from light pink to red */
+    border: none;
+    border-radius: 20px; /* Larger rounded corners for a pill shape */
+    color: #ffffff;
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold text for emphasis */
+    padding: 16px 32px; /* Larger padding for a bigger button */
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Increased letter spacing for a striking appearance */
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ffffff; /* White border to make the button pop */
+}
+
+.buy-button:hover {
+    background: linear-gradient(145deg, #ff5252, #d32f2f); /* Darker red gradient on hover */
+    transform: translateY(-4px); /* Lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.buy-button:active {
+    background: linear-gradient(145deg, #d32f2f, #c62828); /* Even darker gradient on click */
+    transform: translateY(2px); /* Pressed effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some space around the button */
+form#payment-form {
+    margin: 20px;
+}

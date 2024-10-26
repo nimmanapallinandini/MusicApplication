@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+h1 {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif ;  /* Modern and clean sans-serif font */
+    font-size: 48px; /* Slightly smaller but still prominent */
+    color: #333333; /* Dark gray for a softer contrast than pure black */
+    text-align: left; /* Align text to the left */
+    margin-top: 20px; /* Less space at the top */
+    margin-bottom: 20px; /* Less space below the heading */
+    letter-spacing: 2px; /* Wider space between letters */
+    font-weight: bold; /* Normal weight for a sleek look */
+    text-transform: uppercase; /* Convert text to uppercase */
+    border-bottom: 3px solid #999999; /* Add a bottom border for emphasis */
+    padding-bottom: 10px; /* Space between the text and the border */
+}
+
+
+
+
+.container {
+    background-image: url('/images/music6'); 
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(106, 90, 205);
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    border: none; /* Optional: removes border */
+}
+
+button a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login {
+    background-color: rgb(238, 130, 238);
+}
+
+button:hover {
+    background-color: #F5F5DC;
+    cursor:pointer;
+}

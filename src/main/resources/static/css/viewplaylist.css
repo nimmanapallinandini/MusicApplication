@@ -1,0 +1,72 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Table cells */
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Unordered list inside the table cell */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List items in the table cell */
+li {
+    margin-bottom: 10px;
+}
+
+/* Audio player styling */
+audio {
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Responsive table for smaller screens */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    audio {
+        width: 120px;
+    }
+}
